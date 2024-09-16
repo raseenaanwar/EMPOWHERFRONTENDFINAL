@@ -1,0 +1,84 @@
+/* General Styles */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Navbar Styles */
+.custom-navbar {
+  background-color: #663399; /* Navbar background color */
+  height: 80px; /* Adjust the height of the navbar */
+  position: fixed; /* Fixes the navbar to the top */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the navbar is above other content */
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 30px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Change the color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.custom-navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.rounded-logo {
+  border-radius: 50%; /* Makes the image round */
+}
+
+.website-name {
+  font-size: 24px;
+  margin-left: 20px; /* Add space between logo and website name */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+  animation: colorChange 5s infinite; /* Apply color change animation */
+}
+
+@keyframes colorChange {
+  0% { color: #ffffff; } /* Start color (white) */
+  25% { color: #ffd700; } /* Change to gold at 25% */
+  50% { color: #ff69b4; } /* Change to hot pink at 50% */
+  75% { color: #87cefa; } /* Change to light sky blue at 75% */
+  100% { color: #ffffff; } /* Back to white at 100% */
+}
+
+/* Sidebar Styles */
+.sidebar-container {
+  position: fixed;
+  top: 80px; /* Adjust to match the height of the navbar */
+  left: 0;
+  height: calc(100% - 80px); /* Adjust height to avoid overlap with navbar */
+  width: 250px; /* Adjust width as needed */
+  background-color: #34495E; /* Lighter Gray for Sidebar */
+  color: #ECF0F1; /* Light Gray */
+  z-index: 900; /* Ensure the sidebar is below the navbar */
+}
+
+.sidebar-item {
+  color: #ECF0F1; /* Light Gray */
+}
+
+.sidebar-item:hover {
+  background-color: #16A085; /* Slightly lighter Teal */
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-left: 250px; /* Adjust to match the width of the sidebar */
+  padding-top: 80px; /* Adjust to match the height of the navbar */
+}

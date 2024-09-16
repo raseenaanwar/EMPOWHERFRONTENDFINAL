@@ -1,0 +1,32 @@
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16.6667%; /* This corresponds to 2 columns in a 12-column grid */
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid #dee2e6;
+  z-index: 1000; /* Ensures it stays on top */
+  padding-top: 46; /* Adjust this value if you have a navbar with a different height */
+  overflow-y: auto; /* Allows scrolling if the sidebar content overflows */
+}
+
+.container-fluid {
+  margin-left: 16.6667%; /* This makes space for the fixed sidebar */
+}
+
+.card {
+  margin-top: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}

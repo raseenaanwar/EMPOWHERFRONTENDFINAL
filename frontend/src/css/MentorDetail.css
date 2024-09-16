@@ -1,0 +1,35 @@
+/* MentorDetail.css */
+
+.mentor-detail-container {
+    padding: 20px;
+}
+
+.mentor-detail-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.mentor-detail-header {
+    display: flex;
+    align-items: center;
+}
+
+.mentor-detail-header-info {
+    margin-left: 20px;
+}
+
+.mentor-detail-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mentor-detail-buttons {
+    margin-top: 10px;
+}
+
+.mentor-detail-button {
+    margin-right: 10px;
+}

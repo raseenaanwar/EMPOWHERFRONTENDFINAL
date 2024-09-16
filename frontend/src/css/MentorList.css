@@ -1,0 +1,89 @@
+/* MentorList.css */
+
+.mentor-list-container {
+    margin-top: 80px; /* Adjust this value to fit the height of your navbar */
+    padding: 20px;
+    text-align: center; /* Center text for the entire container */
+}
+
+.mentor-list-heading {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 20px; /* Adjust margin to fit with the search box */
+    color: #333; /* Adjust color as needed */
+    font-weight: bold;
+    position: relative;
+    text-align: center; /* Center heading text */
+    padding-left: 0; /* Remove padding */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+}
+
+.search-box-container {
+    margin: 0 auto 20px auto; /* Center search box and add space below */
+    max-width: 400px; /* Maximum width for the search box */
+    padding: 0 20px; /* Optional: Add padding for alignment */
+}
+
+.search-box {
+    width: 100%; /* Full width within the container */
+    padding: 10px;
+    font-size: 1rem; /* Font size for the input text */
+    border: 1px solid #ddd; /* Border style */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.search-box:focus {
+    border-color: #007bff; /* Border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.mentor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between mentor cards */
+    justify-content: center; /* Center mentor cards */
+}
+
+.mentor-card {
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+    background: #fff; /* Background color for the card */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.mentor-image {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 12px; /* Match the card's border radius */
+    object-fit: cover; /* Ensure the image covers the container */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+.mentor-info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem; /* Adjust font size as needed */
+    display: flex;
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.mentor-info p {
+    color: #555; /* Adjust text color as needed */
+    font-size: 1rem; /* Font size for description */
+}
+.no-results-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 20px;
+}

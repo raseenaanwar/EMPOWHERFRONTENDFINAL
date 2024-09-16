@@ -1,0 +1,8 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    min-width: 600px; /* Adjust as needed */
+  }
+  

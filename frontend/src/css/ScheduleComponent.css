@@ -1,0 +1,102 @@
+ScheduleComponent.css
+
+/* MentorAvailability.css */
+
+.mentor-calendar {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  /* styles.css */
+.hidden-week .fc-daygrid-day {
+  display: none;
+}
+
+  
+  .mentor-calendar .react-calendar {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
+  }
+  
+.schedule-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.time-slots-container {
+    margin-top: 20px;
+}
+
+.time-slot-button {
+    margin: 5px;
+}
+
+.booking-reason-container {
+    margin-top: 20px;
+}
+
+.confirm-booking-button {
+    margin-top: 10px;
+}
+/* Custom styles for react-calendar */
+.react-calendar__tile {
+    /* Change the background color of the dates */
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 0.25rem; /* Bootstrap border radius */
+    color: #000; 
+  }
+  
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+    /* Change the background color of the dates on hover and focus */
+    background-color: #e2e6ea; /* Slightly darker gray */
+  }
+  
+  .react-calendar__tile--active {
+    /* Change the background color of the selected date */
+    background-color: #0d6efd; /* Bootstrap primary color */
+    color: #fff; /* White text */
+  }
+  
+  .react-calendar__tile--active:enabled:hover,
+  .react-calendar__tile--active:enabled:focus {
+    /* Change the background color of the selected date on hover and focus */
+    background-color: #0b5ed7; /* Darker Bootstrap primary color */
+  }
+  
+  /* Additional custom styles for disabled dates */
+  .react-calendar__tile--now {
+    background-color: #fff3cd; /* Light yellow background */
+    border: 1px solid #ffeeba; /* Light yellow border */
+  }
+  /* Add to your CSS file */
+.highlighted-date {
+  background-color: #ffeb3b; /* Yellow color for highlighted dates */
+  border-radius: 50%;
+  color: #000;
+}
+
+.selected {
+  background-color: #2196F3; /* Blue color for selected time slots */
+  color: #fff;
+  cursor: pointer;
+}
+
+.time-slots-container {
+  margin-top: 20px;
+}
+
+.time-slots li {
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.time-slots li:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,31 @@
+.custom-navbar {
+    background-color: #2C3E50; /* Dark Gray */
+    color: #ECF0F1; /* Light Gray */
+    margin-bottom: 50px;
+  }
+  
+  .nav-link {
+    color: #ECF0F1; /* Light Gray */
+  }
+  
+  .nav-link:hover {
+    color: #1ABC9C; /* Teal */
+  }
+  
+  .welcome-text {
+    color: #ECF0F1; /* Light Gray */
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    margin-left: 10px;
+    border-color: #ECF0F1; /* Light Gray border for the button */
+    color: #ECF0F1; /* Light Gray text */
+  }
+  
+  .logout-button:hover {
+    background-color: #1ABC9C; /* Teal */
+    border-color: #1ABC9C; /* Teal border */
+  }
+  

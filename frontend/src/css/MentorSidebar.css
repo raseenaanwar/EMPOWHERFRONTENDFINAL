@@ -1,0 +1,16 @@
+.custom-sidebar {
+    background-color: #34495E; /* Lighter Gray for Sidebar */
+    color: #ECF0F1; /* Light Gray */
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .sidebar-item {
+    color: #ECF0F1; /* Light Gray */
+  }
+  
+  .sidebar-item:hover {
+    background-color: #16A085; /* Slightly lighter Teal */
+  }
+  
